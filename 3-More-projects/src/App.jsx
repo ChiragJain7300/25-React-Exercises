@@ -2,6 +2,7 @@ import './App.css'
 import ImageSlider from './components/ImageSlider'
 import LoadMore from './components/LoadMore'
 import StarRating from "./components/StarRating"
+import TreeView from './components/Tree-View/TreeView'
 function App() {
 
   return (
@@ -13,7 +14,10 @@ function App() {
       {/* <ImageSlider url={"https://picsum.photos/v2/list?page=1&limit=10"}/> */}
 
       {/* Load More Functionality */}
-      <LoadMore />
+      {/* <LoadMore /> */}
+
+      {/* Tree View UI component */}
+      <TreeView />
     </>
   )
 }
