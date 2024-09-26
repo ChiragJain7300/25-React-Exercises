@@ -1,0 +1,30 @@
+.parentElem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.treeCont {
+  display: flex;
+  width: 250px;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  background-color: darkslategray;
+  color: beige;
+  box-sizing: border-box;
+  align-items: center;
+}
+ul {
+  width: 80%;
+}
+li {
+  list-style: none;
+}
+.expand {
+  padding: 0;
+  background-color: darkslategray;
+  font-size: 40px;
+}
+.expand:hover {
+  border: none;
+}

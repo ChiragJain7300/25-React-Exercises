@@ -1,10 +1,10 @@
-import './App.css'
-import ImageSlider from './components/ImageSlider'
-import LoadMore from './components/LoadMore'
-import StarRating from "./components/StarRating"
-import TreeView from './components/Tree-View/TreeView'
+import "./App.css";
+import ImageSlider from "./components/ImageSlider";
+import LoadMore from "./components/LoadMore";
+import QrcodeGenerator from "./components/QrcodeGenerator";
+import StarRating from "./components/StarRating";
+import TreeView from "./components/Tree-View/TreeView";
 function App() {
-
   return (
     <>
       {/* Rating Star Components
@@ -17,9 +17,12 @@ function App() {
       {/* <LoadMore /> */}
 
       {/* Tree View UI component */}
-      <TreeView />
+      {/* <TreeView /> */}
+
+      {/* QR Code Generator */}
+      <QrcodeGenerator />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
