@@ -1,5 +1,6 @@
 import "./App.css";
 import DarkTheme from "./components/DarkTheme";
+import DynamicTabs from "./components/DynamicTabs";
 import ImageScroller from "./components/ImageScroller";
 import ImageSlider from "./components/ImageSlider";
 import LoadMore from "./components/LoadMore";
@@ -28,7 +29,10 @@ function App() {
       {/* <DarkTheme /> */}
 
       {/* Image Scroller */}
-      <ImageScroller />
+      {/* <ImageScroller /> */}
+
+      {/* Dynamic Tabs  */}
+      <DynamicTabs />
     </>
   );
 }

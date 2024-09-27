@@ -62,13 +62,15 @@ function ImageScroller() {
           style={{ width: `${percentScrolled}%` }}
         ></div>
       </div>
-      {data && data.length > 0
-        ? data.map((item) => (
-            <div key={item.id} className="productCont">
-              <p>{item.title}</p>
-            </div>
-          ))
-        : null}
+      <div className="prodCont">
+        {data && data.length > 0
+          ? data.map((item) => (
+              <div key={item.id} className="productCont">
+                <p>{item.title}</p>
+              </div>
+            ))
+          : null}
+      </div>
     </>
   );
 }

@@ -1,15 +1,22 @@
-.products-container{
-    width: 80%;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 10px;
-    margin: 20px auto;
+.products-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 20px auto;
 }
-.product-container{
-    padding: 5px;
+.product-container {
+  padding: 5px;
 }
 
-.product-container img{
-    width: 80%;
-    margin: 5px auto;
+.product-container img {
+  width: 80%;
+  margin: 5px auto;
+}
+button {
+  border-radius: 0px;
+}
+.tabData {
+  width: 50%;
+  margin: 30px auto;
 }
