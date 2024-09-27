@@ -1,4 +1,6 @@
 import "./App.css";
+import DarkTheme from "./components/DarkTheme";
+import ImageScroller from "./components/ImageScroller";
 import ImageSlider from "./components/ImageSlider";
 import LoadMore from "./components/LoadMore";
 import QrcodeGenerator from "./components/QrcodeGenerator";
@@ -20,7 +22,13 @@ function App() {
       {/* <TreeView /> */}
 
       {/* QR Code Generator */}
-      <QrcodeGenerator />
+      {/* <QrcodeGenerator /> */}
+
+      {/* Light / Dark Mode switch */}
+      {/* <DarkTheme /> */}
+
+      {/* Image Scroller */}
+      <ImageScroller />
     </>
   );
 }

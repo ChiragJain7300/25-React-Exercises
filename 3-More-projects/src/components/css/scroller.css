@@ -1,0 +1,27 @@
+body {
+  width: 100%;
+}
+.productCont {
+  margin: 15px auto;
+}
+.navbar {
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: cadetblue;
+  position: fixed;
+  z-index: 1500;
+}
+.scrollerCont {
+  width: 100%;
+  height: 7px;
+  background-color: aquamarine;
+  position: fixed;
+  z-index: 1500;
+  top: 80px;
+}
+.scroller {
+  background-color: red;
+  height: 7px;
+}
