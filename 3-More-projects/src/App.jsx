@@ -4,6 +4,7 @@ import DynamicTabs from "./components/DynamicTabs";
 import ImageScroller from "./components/ImageScroller";
 import ImageSlider from "./components/ImageSlider";
 import LoadMore from "./components/LoadMore";
+import { Main } from "./components/Modal-Component/Main";
 import QrcodeGenerator from "./components/QrcodeGenerator";
 import StarRating from "./components/StarRating";
 import TreeView from "./components/Tree-View/TreeView";
@@ -32,7 +33,10 @@ function App() {
       {/* <ImageScroller /> */}
 
       {/* Dynamic Tabs  */}
-      <DynamicTabs />
+      {/* <DynamicTabs /> */}
+
+      {/* Modal */}
+      <Main />
     </>
   );
 }
