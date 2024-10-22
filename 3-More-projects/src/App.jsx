@@ -6,7 +6,9 @@ import ImageSlider from "./components/ImageSlider";
 import LoadMore from "./components/LoadMore";
 import { Main } from "./components/Modal-Component/Main";
 import QrcodeGenerator from "./components/QrcodeGenerator";
+import SearchAuto from "./components/SearchAuto";
 import StarRating from "./components/StarRating";
+import TicTacToe from "./components/TicTacToe";
 import TreeView from "./components/Tree-View/TreeView";
 function App() {
   return (
@@ -36,7 +38,13 @@ function App() {
       {/* <DynamicTabs /> */}
 
       {/* Modal */}
-      <Main />
+      {/* <Main /> */}
+
+      {/* Search bar with autocomplete feature */}
+      {/* <SearchAuto /> */}
+
+      {/* Tic Tac Toe game */}
+      <TicTacToe />
     </>
   );
 }

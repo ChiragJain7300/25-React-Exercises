@@ -1,0 +1,17 @@
+.modal-cont {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+@keyframes modalIn {
+  from {
+    top: 0;
+  }
+
+  to {
+    top: 100px;
+  }
+}

@@ -1,0 +1,10 @@
+.gameCont {
+  margin-left: 40%;
+  margin-top: 5%;
+  margin-bottom: 20px;
+}
+.tic-row {
+  display: flex;
+  margin: auto;
+  color: white;
+}
